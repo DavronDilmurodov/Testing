@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 70px;
+}
+
+.square {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-image: url(https://thypix.com/wp-content/uploads/2021/02/pixel-sunglasses-17-700x407.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  background-color: #fff;
+  animation-name: animation;
+  animation-duration: 10s;
+}
+
+@keyframes animation {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    rotate: 0deg;
+  }
+
+  11% {
+    top: 0;
+    left: 500px;
+    background-color: burlywood;
+    rotate: 0deg;
+  }
+
+  22% {
+    top: 300px;
+    left: 800px;
+    background-color: cornflowerblue;
+    rotate: 45deg;
+  }
+
+  35% {
+    top: 300px;
+    left: 1100px;
+    background-color: crimson;
+    rotate: 0deg;
+  }
+
+  48% {
+    top: 500px;
+    left: 1100px;
+    background-color: chocolate;
+    rotate: 180deg;
+  }
+
+  61% {
+    top: 500px;
+    left: 400px;
+    background-color: gold;
+    rotate: -90deg;
+  }
+
+  74% {
+    top: 350px;
+    left: 240px;
+    background-color: darkslategrey;
+    rotate: 0deg;
+  }
+
+  87% {
+    top: 350px;
+    left: 0;
+    background-color: aqua;
+    rotate: -45deg;
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    rotate: 0;
+  }
+}
